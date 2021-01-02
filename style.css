@@ -1,0 +1,237 @@
+body{
+    max-width: 950px;
+    margin: auto;
+}
+.menuPrincipal{
+    display: flex;
+    justify-content: space-between;
+}
+.menu1 , .menu2{
+    border: 2px solid red;
+    display: flex;
+}
+.menu1{
+    width: 55%;
+    justify-content: space-around;
+}
+.menu2{
+    width: 45%;
+    justify-content: space-around;
+}
+.menu1 ul{
+    display: flex;
+}
+.menu1 ul li{
+    list-style-type: none;
+    padding-left: 3em;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    border-radius: 4px;
+    color: red;
+    background-color: white;
+    padding: 10px;
+}
+article{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    
+}
+.article1{
+    border: 2px solid red;
+    width: 25%;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+article div ul li{
+    list-style-type: none;
+}
+.SocialIcons{
+    padding-right: 3%;
+    padding-top: 7%;
+}
+.article1 :nth-child(3)
+{
+    color: red;
+}
+.PARTNERS{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap:10px;
+    justify-content: center;
+}
+.PARTNERS :nth-child(1)
+{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Awards{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-top: 8%;
+
+}
+.LogoAwards{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.AwardsDecription{
+    width: 25%;
+}
+.LogoAwards,.AwardsDecription{
+    margin: 15px;
+}
+.LogoAwardsItems{
+    border: 1px solid green;
+    height: 180px;
+    width: 180px;
+}
+
+.Services{
+    border: 2px solid brown;
+    display: grid;
+    height: 400px;
+    grid-template-columns: repeat(3,25%);
+    grid-template-rows: repeat(2,200px);
+    padding-left: 100px;
+}
+.Services :nth-child(1){
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+}
+.ServicesItems{
+    border: 1px solid yellow;
+    margin: 10px;
+}
+.Services2{
+    display: grid;
+    height: 400px;
+    grid-template-columns: repeat(4,15%);
+    grid-template-rows: repeat(2,150px);
+    grid-gap:10px;
+    justify-content: center;
+}
+.Services2 :nth-child(1){
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Services2Items{
+    border: 1px solid green;
+}
+.MenuProject1{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    margin-left: 150px;
+
+}
+.MenuProject1 ul li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.MenuProject1 ul{
+    display: flex;
+}
+.Imagen{
+    display: flex;
+    justify-content: space-around;
+}
+.ImagenItem{
+    border: 1px solid salmon;
+    height: 300px;
+    width: 30%;
+
+}
+.TituloReviews{
+    text-align: center;
+}
+.Reviews{
+    border: 1px solid rgb(209, 209, 42);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ReviewsItems{
+    border: 1px solid green;
+    width: 40%;
+    height: 250px;
+    margin: 15px;
+}
+.FotoDescription{
+    display: flex;
+}
+.TipsTittle{
+    text-align: center;
+}
+.Tips{
+    display: flex;
+    justify-content: center;
+}
+.TipsItems{
+    border: 1px solid slategray;
+    width: 23%;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Newletter{
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    border: 1px solid royalblue;
+    display: flex;
+    justify-content: space-around;
+}
+.footer1{
+    border: 1px solid royalblue;
+    display: flex;
+}
+.footer2{
+    width: 30%;
+}
+.footer2 ul{
+    border: 1px solid royalblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer2 ul li{
+    list-style-type: none;
+}
+.footer3 ul{
+    display: flex;
+}
+.footer3 ul li{
+    list-style-type: none;
+}
